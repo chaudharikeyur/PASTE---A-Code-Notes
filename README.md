@@ -1,12 +1,44 @@
-# React + Vite
+🔥 PASTE - A Code/Notes Description App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PASTE is a simple code & notes sharing application where users can:
+Create text-based notes or code snippets.
+Share them via URL links.
+View or Update their saved pastes.
+Copy paste links directly.
+Securely display content without editing.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+📌 Folder Structure
+bash
+Copy
+Edit
+src/
+├─ components/
+│   ├─ Header.jsx       # Navbar Header
+│   ├─ PasteCard.jsx    # Paste Card Design
+├─ pages/
+│   ├─ Home.jsx        # Create + Edit Paste Page
+│   ├─ ViewPaste.jsx   # View Paste Page
+├─ redux/
+│   ├─ pasteSlice.js   # Redux Store for Pastes
+├─ App.jsx             # Routing + Layout
+└─ main.jsx            # React DOM Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+🔑 Tech Stack
+React + Vite ⚡
+Redux Toolkit 🛠️
+TailwindCSS 💪
+React Router DOM
+Lucide Icons
+
+
+
+🔥 Bonus Features (Upcoming)
+Dark Mode 🌙
+Login/Signup with JWT
+Private Paste 🔒
+Syntax Highlighting for Code
+QR Code Generation 📲
